@@ -88,7 +88,7 @@ This repository contains a Colab notebook that allows you to train a ResNet18 mo
 
 ## Conclusion
 
-This README provides instructions for running the provided Colab notebook to train a ResNet18 model for image classification on even classes of CIFAR-10 using Weights and Biases (Wandb). You can easily run and experiment with different hyperparameters directly in Colab without the need to set up dependencies locally. 
+This README provides instructions for running the provided Colab notebook to train a ResNet18 model for image classification on even classes of CIFAR-10 using Weights and Biases (Wandb). You can easily run and experiment with different hyperparameters directly in Colab without the need to set up dependencies locally. Optuna is efficient in selecting hyperparameters and also prunes (removes) parameter sets that are unlikely to produce good results, saving time and resources in the optimization process.
 
 Using Optuna, we can efficiently search for the best hyperparameters to improve our model's performance, making model experiments more effective and less time-consuming.
 
