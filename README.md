@@ -1,11 +1,14 @@
 # README: Training a ResNet18 Model for Classification on Even Classes of CIFAR-10 using Weights and Biases (Wandb) in Colab
 
+## Monitoring Training Progress with Weights and Biases (Wandb)
+
+In this project, WANDB is used for monitoring and visualizing the training progress of machine learning model. Wandb is a powerful tool for experiment tracking, logging metrics, and creating interactive visualizations.
+
+### Validation Loss
+
+Here's a visualization of loss and accuracy during training, generated using Wandb:
+
 ## Performance
-
-
-
-
-
 
 <table>
   <tr>
