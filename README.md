@@ -10,10 +10,10 @@
 <table>
   <tr>
     <td>
-      <img src="train_loss.png" alt="Train Loss" width="500">
+      <img src="train_loss.png" alt="Train Loss" width="800">
     </td>
     <td>
-      <img src="val_loss.png" alt="Validation Loss" width="500">
+      <img src="val_loss.png" alt="Validation Loss" width="800">
     </td>
   </tr>
 </table>
@@ -21,10 +21,10 @@
 <table>
   <tr>
     <td>
-      <img src="train_accuracy.png" alt="Train Accuracy" width="500">
+      <img src="train_accuracy.png" alt="Train Accuracy" width="800">
     </td>
     <td>
-      <img src="val_accuracy.png" alt="Validation Accuracy" width="500">
+      <img src="val_accuracy.png" alt="Validation Accuracy" width="800">
     </td>
   </tr>
 </table>
