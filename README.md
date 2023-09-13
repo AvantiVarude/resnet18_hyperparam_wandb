@@ -33,7 +33,7 @@ Here's a visualization of loss and accuracy during training, generated using Wan
 </table>
 
 ## Imagewise prediction:
-<img src="Prediction_table.png" alt="Train Loss" width="1000">
+<img src="prediction_table.png" alt="predictions" width="1000">
 
 
 This repository contains a Colab notebook that allows you to train a ResNet18 model for image classification on the even classes of CIFAR-10 using the Weights and Biases (Wandb) framework. You can easily run this notebook in Colab without the need to set up any dependencies on your local machine.
