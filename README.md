@@ -2,10 +2,32 @@
 
 ## Performance
 
-<img src="train_loss.png" alt="Train Loss" width="200">
-<img src="val_loss.png" alt="Validation Loss" width="200">
-<img src="train_accuracy.png" alt="Train Accuracy" width="200">
-<img src="val_accuracy.png" alt="Validation Accuracy" width="200">
+
+
+
+
+
+<table>
+  <tr>
+    <td>
+      <img src="train_loss.png" alt="Train Loss" width="300">
+    </td>
+    <td>
+      <img src="val_loss.png" alt="Validation Loss" width="300">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="train_accuracy.png" alt="Train Accuracy" width="300">
+    </td>
+    <td>
+      <img src="val_accuracy.png" alt="Validation Accuracy" width="300">
+    </td>
+  </tr>
+</table>
 
 
 This repository contains a Colab notebook that allows you to train a ResNet18 model for image classification on the even classes of CIFAR-10 using the Weights and Biases (Wandb) framework. You can easily run this notebook in Colab without the need to set up any dependencies on your local machine.
