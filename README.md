@@ -77,22 +77,20 @@ This repository contains a Colab notebook that allows you to train a ResNet18 mo
 
    To experiment with different hyperparameters, you can modify the values directly in the notebook and re-run the training cells. Wandb will keep track of all your experiments and their results for easy comparison.
 
-Certainly, you can add a section to your README file to explain the purpose and usage of the "optuna_file" you've added, especially if it's related to hyperparameter optimization using the Optuna library. Here's an example of how you can do that:
 
 ## PART 2: Hyperparameter Optimization with Optuna
 
 1. **Run the Notebook**:
-   Execute the cells in the Colab notebook one by one. The notebook contains code for loading the CIFAR-10 dataset, configuring hyperparameters, training the model, and logging results with the script will log the hyperparameters it explores, as well as the corresponding performance metrics. You can analyze these results to determine the best hyperparameter configuration for a model.
+   Execute the cells in the Colab notebook one by one. The notebook contains code for loading the MNIST dataset, configuring hyperparameters, training the model, and logging results with the script will log the hyperparameters it explores, as well as the corresponding performance metrics. You can analyze these results to determine the best hyperparameter configuration for a model.
    
 2. **Customization**:
-
    Feel free to customize the optimization objective, search space, and other parameters in the "optuna_file.py" script to suit your specific requirements.
 
 ## Conclusion
 
 This README provides instructions for running the provided Colab notebook to train a ResNet18 model for image classification on even classes of CIFAR-10 using Weights and Biases (Wandb). You can easily run and experiment with different hyperparameters directly in Colab without the need to set up dependencies locally. 
 
-Using Optuna, we can efficiently search for the best hyperparameters to improve our model's performance, making our machine learning experiments more effective and less time-consuming.
+Using Optuna, we can efficiently search for the best hyperparameters to improve our model's performance, making model experiments more effective and less time-consuming.
 
 
 You can play with different hyperparameters, datasets and models.
