@@ -79,49 +79,47 @@ This repository contains a Colab notebook that allows you to train a ResNet18 mo
 
 Certainly, you can add a section to your README file to explain the purpose and usage of the "optuna_file" you've added, especially if it's related to hyperparameter optimization using the Optuna library. Here's an example of how you can do that:
 
-```markdown
 ## Hyperparameter Optimization with Optuna
 
 In this project, we've incorporated the [Optuna library](https://optuna.org/) for hyperparameter optimization. Optuna is a powerful tool for automating the search for optimal hyperparameters of machine learning models.
 
 ### optuna_file.py
 
-We have included a Python script named "optuna_file.py" in this repository. This script demonstrates how to use Optuna to search for the best hyperparameters for our ResNet18 model trained on the even classes of CIFAR-10. Here's how you can use it:
+There is a Python script named "optuna_file.py" in this repository. This script demonstrates how to use Optuna to search for the best hyperparameters for our any model. Here's how you can use it:
 
 1. **Installation**:
    
    Make sure you have the Optuna library installed. You can install it using pip:
 
    ```bash
-   pip install optuna
+   !pip install optuna
    ```
 
 2. **Run the Script**:
 
-   Execute the "optuna_file.py" script to start the hyperparameter optimization process. This script will perform a search to find the optimal set of hyperparameters for your model.
+   Execute the "optuna_file.py" script to start the hyperparameter optimization process. This script will perform a search to find the optimal set of hyperparameters for a given model.
 
    ```bash
-   python optuna_file.py
+   !python optuna_file.py
    ```
 
 3. **Results and Logs**:
 
-   The script will log the hyperparameters it explores, as well as the corresponding performance metrics. You can analyze these results to determine the best hyperparameter configuration for your model.
+   The script will log the hyperparameters it explores, as well as the corresponding performance metrics. You can analyze these results to determine the best hyperparameter configuration for a model.
 
 4. **Customization**:
 
    Feel free to customize the optimization objective, search space, and other parameters in the "optuna_file.py" script to suit your specific requirements.
-
-For more detailed information on how to use Optuna for hyperparameter optimization, please refer to the [Optuna documentation](https://optuna.readthedocs.io/en/stable/index.html).
 
 Using Optuna, we can efficiently search for the best hyperparameters to improve our model's performance, making our machine learning experiments more effective and less time-consuming.
 
 
 ## Conclusion
 
-This README provides instructions for running the provided Colab notebook to train a ResNet18 model for image classification on even classes of CIFAR-10 using Weights and Biases (Wandb). You can easily run and experiment with different hyperparameters directly in Colab without the need to set up dependencies locally.
+This README provides instructions for running the provided Colab notebook to train a ResNet18 model for image classification on even classes of CIFAR-10 using Weights and Biases (Wandb). You can easily run and experiment with different hyperparameters directly in Colab without the need to set up dependencies locally. Also the use of optuna is also given to search the best set of htperparameters.
 
 You can play with different hyperparameters, datasets and models.
 
 References:
 1. https://wandb.ai/
+2. https://github.com/elena-ecn/optuna-optimization-for-PyTorch-CNN/blob/main/optuna_optimization.py
