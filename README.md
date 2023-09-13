@@ -2,7 +2,7 @@
 
 ## Monitoring Training Progress with Weights and Biases (Wandb)
 
-In this project, WANDB is used for monitoring and visualizing the training progress of machine learning model. Wandb is a powerful tool for experiment tracking, logging metrics, and creating interactive visualizations.
+In this project, WANDB is used for monitoring and visualizing the training progress of machine learning model.
 
 ### Validation Loss
 
