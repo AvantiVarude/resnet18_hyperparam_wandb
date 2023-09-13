@@ -45,3 +45,6 @@ This repository contains a Colab notebook that allows you to train a ResNet18 mo
 This README provides instructions for running the provided Colab notebook to train a ResNet18 model for image classification on even classes of CIFAR-10 using Weights and Biases (Wandb). You can easily run and experiment with different hyperparameters directly in Colab without the need to set up dependencies locally.
 
 You can play with different hyperparameters, datasets and models.
+
+References:
+1. https://wandb.ai/
